@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../api/[auth]/[...nextauth]/route';
+import { authOptions } from '@/utils/authOptions';
 import VideoPlayer from '@/components/VideoPlayer';
 
 export default function VideoPage() {
