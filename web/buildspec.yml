@@ -4,6 +4,7 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
+      - node --version # Check Node.js version and see why this is failing build
       - cd web
       - npm install
   pre_build:
