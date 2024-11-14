@@ -54,7 +54,7 @@ export default function LoginPage() {
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="password"
             >
-              Email
+              Password
             </label>
             <input
               type="password"

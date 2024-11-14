@@ -10,7 +10,7 @@ export default async function VideoPage() {
 
   return (
     <div className="flex h-screen items-center justify-center bg-gray-100 text-black">
-      <VideoPlayer src="src.sc" />
+      <VideoPlayer src="https://js-fs-challenge-ash-bergsma.s3.us-east-1.amazonaws.com/js-fullstack-challenge-ash-bergsma.mp4" />
     </div>
   );
 }
