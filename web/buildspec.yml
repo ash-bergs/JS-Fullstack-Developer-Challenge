@@ -1,0 +1,18 @@
+version: 1.0
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+    commands:
+      - cd web
+      - npm install
+  pre_build:
+    commands:
+      - echo Pre-build step complete.
+  build:
+    commands:
+      - npm run build
+artifacts:
+  baseDirectory: web/.next
+  files:
+    - '**/*'
